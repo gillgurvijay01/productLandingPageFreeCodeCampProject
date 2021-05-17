@@ -80,3 +80,7 @@ ul {
     font-family: monospace;
     font-size: large;
 }
+
+.flex-container{
+    display: flex;
+}
