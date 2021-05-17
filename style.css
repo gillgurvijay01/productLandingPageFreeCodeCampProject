@@ -88,6 +88,7 @@ ul {
 }
 
 .flex-items{
+    padding: 10px;
     height:400px;
     background:linear-gradient(35deg,#ccffff,#ffcccc);
     width: 300px;
@@ -95,5 +96,21 @@ ul {
     border-radius: 2%;
     box-shadow: 10px 10px 10px black;
     display: flex;
+    flex-direction: column;
+
+}
+.flex-items>img{
+    height: 150px;
+    width: auto;
+}
+
+#video{
+    width:600px;
+   border: 10px solid black;
+
+}
+footer{
+    display: flex;
+    background-color: var(--color5);
     justify-content: center;
 }
