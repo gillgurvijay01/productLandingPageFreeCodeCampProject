@@ -61,9 +61,22 @@ ul {
       top:50px;
       width:600px;
       left:650px;
+
   }
 
 #heading>input{
     width: inherit;
     border-radius: 1%;
+    height: 30px;
+}
+
+#heading>button{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    position: relative;
+    left:200px;
+    background-color: var(--color1);
+    font-family: monospace;
+    font-size: large;
 }
