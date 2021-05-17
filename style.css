@@ -1,0 +1,52 @@
+/* Root Color declaration */
+:root{
+    --color1:#fcfc62;
+    --color2:#feffea;
+    --color3:#c9c9c9;
+    --color4:#a3a3a3;
+    --color5:#424242;
+}
+
+*{
+    margin:0px;
+}
+
+nav{
+    background-color: var(--color1);
+    height: 70px;
+}
+
+nav>p{
+    font-size: 40px;
+    color:var(--color5);
+    text-align: center;
+}
+nav>p>span{
+    color:var(--color3);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    position: relative;
+    left: ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
