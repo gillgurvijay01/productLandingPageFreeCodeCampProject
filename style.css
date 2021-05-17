@@ -83,4 +83,15 @@ ul {
 
 .flex-container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-items{
+    height:400px;
+    background:linear-gradient(35deg,#ccffff,#ffcccc);
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px black;
 }
