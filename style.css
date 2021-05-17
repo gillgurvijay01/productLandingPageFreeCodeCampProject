@@ -10,7 +10,6 @@
 *{
     margin:0px;
 }
-
 nav{
     background-color: var(--color1);
     height: 70px;
@@ -30,12 +29,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: sticky;
   }
   
   li {
     float: left;
-    position: relative;
-    left: ;
+    align-items: center;
   }
   
   li a {
